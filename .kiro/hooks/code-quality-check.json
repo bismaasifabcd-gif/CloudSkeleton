@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Code Quality Check",
+      "trigger": "PreToolUse",
+      "description": "Validates code quality standards before file modifications",
+      "matcher": "str_replace|fs_write|fs_append",
+      "action": {
+        "type": "agent",
+        "prompt": "Before making code changes, ensure:\n1. Follow the project's TypeScript/Python conventions\n2. Maintain consistent code style and formatting  \n3. Include proper error handling and validation\n4. Add appropriate type annotations and interfaces\n5. Consider performance and security implications\n6. Update related documentation if needed"
+      }
+    }
+  ]
+}

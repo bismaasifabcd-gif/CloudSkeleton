@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Security Review Guidance",
+      "trigger": "PreToolUse",
+      "description": "Provides security guidance when working with infrastructure and deployment files",
+      "matcher": "infrastructure|deploy|security|iam|policy|.*\\.env.*",
+      "action": {
+        "type": "agent",
+        "prompt": "When working with infrastructure, deployment, or security-related files, ensure:\n\n1. **IAM Permissions**: Use least-privilege principles and avoid wildcard permissions\n2. **Secrets Management**: Never commit secrets, API keys, or credentials to version control\n3. **Resource Access**: Implement proper resource-level permissions and encryption\n4. **Network Security**: Configure appropriate VPC, security groups, and access controls\n5. **Monitoring**: Enable logging, monitoring, and alerting for security events\n6. **Compliance**: Follow organization security policies and compliance requirements\n\nReview the changes for any security implications before proceeding."
+      }
+    }
+  ]
+}

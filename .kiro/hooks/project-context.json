@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Project Context Loader",
+      "trigger": "SessionStart",
+      "description": "Provides context about the AI Data Pipeline Generator project when sessions start",
+      "action": {
+        "type": "agent",
+        "prompt": "You are working on the AI Data Pipeline Generator project - a full-stack AWS application that converts natural language into data pipeline architectures. \n\nKey project details:\n- Frontend: React + TypeScript + Vite + Tailwind CSS\n- Backend: Python FastAPI + AWS Bedrock + DynamoDB + S3\n- Infrastructure: AWS CDK with Lambda + API Gateway + Amplify\n- Core feature: Transform prompts into AWS pipeline diagrams and specs\n\nAlways follow the project's established patterns for AWS integration, React components, and Python services. Reference the steering files for coding standards and architectural decisions."
+      }
+    }
+  ]
+}

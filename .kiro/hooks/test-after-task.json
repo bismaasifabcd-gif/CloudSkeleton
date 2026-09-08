@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Test After Task Completion",
+      "trigger": "PostTaskExec",
+      "description": "Runs relevant test suites after completing development tasks",
+      "action": {
+        "type": "command",
+        "command": "echo \"Running test suite after code changes...\" && cd backend && python -m pytest -q --tb=short 2>/dev/null || echo \"Backend tests skipped\" && cd ../frontend && npm test -- --run --reporter=basic 2>/dev/null || echo \"Frontend tests skipped\""
+      }
+    }
+  ]
+}

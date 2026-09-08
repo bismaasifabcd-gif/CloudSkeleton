@@ -1,0 +1,6 @@
+{
+  "user_id": "anonymous",
+  "title": "FTP CSV to Athena",
+  "description": "Pipeline: Source FTP CSV. Ingestion uses AWS Transfer Family. Storage lands data in Amazon S3 Bronze. Transformation uses AWS Glue and dbt. Orchestration uses Dagster. Serving uses Amazon Athena. Monitoring uses CloudWatch. Security uses IAM and KMS.",
+  "tags": ["ftp", "csv", "athena"]
+}
