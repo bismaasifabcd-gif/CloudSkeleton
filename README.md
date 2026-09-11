@@ -19,20 +19,22 @@ Live application: https://dev.d273q6bevgfbgl.amplifyapp.com
 ## Screenshots
 
 ### Dashboard
-
-![Dark mode dashboard](docs/images/dashboard-dark.png)
+<img width="1399" height="755" alt="Screen Shot 2026-09-11 at 2 39 32 PM" src="https://github.com/user-attachments/assets/3098d61a-28b7-41aa-9a9b-f35c573e008f" />
 
 ### Generated Architecture
 
-![Generated architecture diagram](docs/images/generated-architecture.png)
+<img width="1438" height="758" alt="Screen Shot 2026-09-11 at 2 40 25 PM" src="https://github.com/user-attachments/assets/3f9a0caf-d0db-4e35-b74a-be97831db8d1" />
+
 
 ### Pipeline Specification
 
-![Pipeline specification](docs/images/pipeline-specification.png)
+<img width="1428" height="660" alt="Screen Shot 2026-09-11 at 2 40 59 PM" src="https://github.com/user-attachments/assets/7ddb7416-6b09-44b0-887f-bfa53a02f2a5" />
+
 
 ### History and Export
 
-![Export and history workflow](docs/images/exports-history.png)
+<img width="1089" height="299" alt="Screen Shot 2026-09-11 at 2 41 14 PM" src="https://github.com/user-attachments/assets/8d847b6c-6de0-4be8-b095-d7a84b6178b1" />
+
 
 ## Application Architecture
 
